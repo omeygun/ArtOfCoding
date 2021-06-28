@@ -1,0 +1,49 @@
+.paragraph{
+    font-size: 25px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.bigheader{
+    font-size: 60px;
+    line-height: 60px;
+    font-family: 'Roboto', serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.smallheader{
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.image {
+    border-radius: 4px;
+    border: 0;
+    display: inline-block;
+}
+.omepic{
+    position: relative;
+    border: 3px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#grad {
+    height: 100%;
+    background-image: url(/images/bg4.jpg); 
+}
+.popup {
+    color:purple;
+    text-align: center;
+}
+.popupbutton:hover .popup{
+    color:green;
+}
+.popupbutton:hover {
+    transform: scale(1.04,1.04);
+}
+.popupbutton {
+    background-color: lightblue;
+}
