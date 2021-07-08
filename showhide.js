@@ -1,4 +1,14 @@
 
+function triggershow(names,tags){
+    document.getElementsByClassName(tags)[0].style.display="none"
+
+    if(document.getElementById(names).style.display=="none"){
+        document.getElementById(names).style.display="inline"
+    }else{
+        document.getElementById(names).style.display="none"
+    }
+}
+
 function triggershowabout(){
     if(document.getElementById("about").style.display=="none"){
         document.getElementById("about").style.display="inline";
