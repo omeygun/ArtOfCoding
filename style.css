@@ -34,6 +34,10 @@
     height: 100%;
     background-image: url(/images/bg4.jpg); 
 }
+#jaigere {
+    height: 100%;
+    background-image: url(/images/hqdefault.jpg);
+}
 .popup {
     color:purple;
     text-align: center;
@@ -53,4 +57,7 @@
 
 .inform{
     color:green;
+}
+.gayray{
+    background-image:url(/images/hqdefault.jpg);
 }
